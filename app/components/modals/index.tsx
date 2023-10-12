@@ -13,7 +13,7 @@ export default function Modal({
   return (
   <>
     <div className="fixed w-screen h-screen bg-black bg-opacity-[0.5] z-50 top-0 left-0">
-      <div className="relative w-3/4 bg-white rounded-md mx-auto mt-10 overflow-y-auto flex flex-col md:w-1/2">
+      <div className="relative w-3/4 bg-white rounded-md mx-auto mt-10 overflow-y-auto flex flex-col md:w-1/2 dark:bg-neutral-800">
         <div className="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
           <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
             {props.modalTitle}

@@ -18,7 +18,9 @@ export default function Menu() {
         <button
           key={tab.id}
           onClick={() => setActiveTab(tab.id)}
-          className={`relative border-transparent rounded-t-lg w-24 px-3 py-1.5 text-sm font-medium outline-sky-400 transition focus-visible:outline-2`}
+          className={`${
+            activeTab === tab.id ? "text-neutral-800" : ""
+          } relative border-transparent rounded-t-lg w-24 px-3 py-1.5 text-sm font-medium outline-sky-400 transition focus-visible:outline-2`}
           style={{
             WebkitTapHighlightColor: "transparent",
           }}

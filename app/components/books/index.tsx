@@ -19,7 +19,7 @@ export default function Books() {
   return (
     <div className="w-full rounded-lg bg-yellow-100 p-10 md:p-20">
       <div className="flex justify-between items-center mb-5">
-        <h1 className="text-2xl">Books</h1>
+        <h1 className="text-2xl dark:text-neutral-900">Books</h1>
         <button 
           className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
           onClick={() => setOpen("createBook")}
@@ -30,7 +30,7 @@ export default function Books() {
       
       <div className="flex flex-col">
         <div className="overflow-x-auto">
-        <table className="min-w-full text-sm md:text-md">
+        <table className="min-w-full text-sm md:text-md dark:text-neutral-900">
           <thead>
             <tr>
               <th>ID</th>
